@@ -1,0 +1,307 @@
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/FatihKaya/Documents/CCS_MSP430_WS/LCD_Drive" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 114: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 122: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 133: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 133: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 136: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 136: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 148: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 168: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 168: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 171: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 171: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 207: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 211: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 215: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 168: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 168: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 171: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 171: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 257: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 271: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 284: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 291: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 243: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 250: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 252: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 257: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 260: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 266: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 271: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 277: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 284: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 291: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 301: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 321: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 328: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 332: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 356: remark #1538-D: (ULP 10.1) ISR timer_0_a1_isr calls function hd44780_timer_isr. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 373: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 377: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 382: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 391: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 376: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 381: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../main.c'
+' '
+'Building target: LCD_Drive.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"LCD_Drive.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LCD_Drive_linkInfo.xml" --use_hw_mpy=none --rom_model -o "LCD_Drive.out" "./ADC.obj" "./hd44780.obj" "./main.obj" "./myUart.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: LCD_Drive.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/FatihKaya/Documents/CCS_MSP430_WS/LCD_Drive" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 115: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 123: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 134: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 134: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 137: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 137: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 150: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 170: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 170: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 209: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 213: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 217: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 170: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 170: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 263: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 277: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 290: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 297: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 245: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 256: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 258: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 263: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 266: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 272: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 277: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 283: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 290: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 297: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 307: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 327: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 334: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 338: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 362: remark #1538-D: (ULP 10.1) ISR timer_0_a1_isr calls function hd44780_timer_isr. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 379: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 383: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 388: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 397: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 382: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 387: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../main.c'
+' '
+'Building target: LCD_Drive.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"LCD_Drive.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LCD_Drive_linkInfo.xml" --use_hw_mpy=none --rom_model -o "LCD_Drive.out" "./ADC.obj" "./hd44780.obj" "./main.obj" "./myUart.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: LCD_Drive.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/FatihKaya/Documents/CCS_MSP430_WS/LCD_Drive" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 115: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 123: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 134: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 134: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 137: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 137: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 150: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 170: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 170: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 209: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 213: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 217: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 170: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 170: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 173: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 263: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 277: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 290: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 297: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 245: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 256: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 258: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 263: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 266: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 272: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 277: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 283: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 290: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 297: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 307: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 327: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 334: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 338: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 362: remark #1538-D: (ULP 10.1) ISR timer_0_a1_isr calls function hd44780_timer_isr. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 379: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 383: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 388: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 397: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 382: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 387: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../main.c'
+' '
+'Building target: LCD_Drive.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"LCD_Drive.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LCD_Drive_linkInfo.xml" --use_hw_mpy=none --rom_model -o "LCD_Drive.out" "./ADC.obj" "./hd44780.obj" "./main.obj" "./myUart.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: LCD_Drive.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/FatihKaya/Documents/CCS_MSP430_WS/LCD_Drive" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 116: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 124: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 135: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 135: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 138: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 138: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 151: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 171: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 171: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 174: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 174: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 210: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 214: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 218: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 171: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 171: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 174: remark #2553-D: (ULP 14.1) Array index (involving "a") of type "int". Recommend using "unsigned int"
+"../main.c", line 174: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 264: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 278: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 291: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 298: remark #1528-D: (ULP 3.1) Detected flag polling using P2IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 246: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 257: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 259: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 264: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 267: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 273: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 278: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 284: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 291: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 298: remark #1539-D: (ULP 11.1) Loop program control flow "P2IFG" compared against higher bits. Recommend compare against lower 4 bits to allow use of constant generators
+"../main.c", line 308: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 328: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 335: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 339: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 363: remark #1538-D: (ULP 10.1) ISR timer_0_a1_isr calls function hd44780_timer_isr. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 380: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 384: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 389: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 398: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 383: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 388: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../main.c'
+' '
+'Building target: LCD_Drive.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"LCD_Drive.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LCD_Drive_linkInfo.xml" --use_hw_mpy=none --rom_model -o "LCD_Drive.out" "./ADC.obj" "./hd44780.obj" "./main.obj" "./myUart.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: LCD_Drive.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD_Drive ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'LCD_Drive.out' is up to date.
+
+**** Build Finished ****

@@ -1,0 +1,1 @@
+"./blink.obj" "../lnk_msp430fg4618.cmd" -llibc.a 

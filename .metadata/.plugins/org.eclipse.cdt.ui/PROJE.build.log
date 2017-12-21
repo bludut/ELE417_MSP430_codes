@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project PROJE ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: PROJE.cpp'
+'Invoking: GNU Compiler'
+"C:/ti/energia-1.6.10E18/hardware/tools/msp430/bin/msp430-gcc.exe" -c -mmcu=msp430g2553 -fno-exceptions -DF_CPU=16000000L -DENERGIA_MSP_EXP430G2553LP -DENERGIA_ARCH_MSP430 -DENERGIA=18 -DARDUINO=10610 -I"C:/Users/FatihKaya/AppData/Local/Energia15/packages/energia/hardware/msp430/1.0.3/cores/msp430" -I"C:/Users/FatihKaya/AppData/Local/Energia15/packages/energia/hardware/msp430/1.0.3/variants/MSP-EXP430G2553LP" -I"C:/Users/FatihKaya/Documents/CCS_MSP430_WS/PROJE" -I"C:/Users/FatihKaya/AppData/Local/Energia15/packages/energia/hardware/msp430/1.0.3/libraries/Wire" -I"C:/ti/energia-1.6.10E18/hardware/tools/msp430/msp430/include" -Os -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -w -Wall -fno-threadsafe-statics -MMD -MP -MF"PROJE.d" -MT"PROJE.o" -o"PROJE.o"  "PROJE.cpp"
+'Finished building: PROJE.cpp'
+' '
+'Building target: PROJE.out'
+'Invoking: GNU Linker'
+"C:/ti/energia-1.6.10E18/hardware/tools/msp430/bin/msp430-gcc.exe" -fno-exceptions -DF_CPU=16000000L -DENERGIA_MSP_EXP430G2553LP -DENERGIA_ARCH_MSP430 -DENERGIA=18 -DARDUINO=10610 -Os -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -w -Wall -fno-threadsafe-statics -mmcu=msp430g2553 -Wl,-Map,"PROJE.map" -Wl,--gc-sections -L"C:/Users/FatihKaya/Documents/CCS_MSP430_WS/MSP-EXP430G2553LP_Adafruit_TMP006/Debug" -L"C:/Users/FatihKaya/Documents/CCS_MSP430_WS/MSP-EXP430G2553LP_Wire/Debug" -L"C:/Users/FatihKaya/Documents/CCS_MSP430_WS/MSP-EXP430G2553LP_core/Debug" -Wl,--undefined,main -w -Os -fno-rtti -fno-exceptions -o"PROJE.out" "./PROJE.o"  -Wl,--start-group -lMSP-EXP430G2553LP_Adafruit_TMP006 -lMSP-EXP430G2553LP_Wire -lMSP-EXP430G2553LP_core -lm -Wl,--end-group 
+'Finished building target: PROJE.out'
+' '
+'Invoking: GNU Objcopy Utility'
+"C:/ti/energia-1.6.10E18/hardware/tools/msp430/bin/msp430-objcopy.exe" -O ihex --remove-section .eeprom  "PROJE.out"  "PROJE.hex"
+'Finished building: PROJE.hex'
+' '
+
+**** Build Finished ****

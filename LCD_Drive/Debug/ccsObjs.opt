@@ -1,0 +1,1 @@
+"./ADC.obj" "./hd44780.obj" "./main.obj" "./myUart.obj" "../lnk_msp430g2553.cmd" -llibc.a 

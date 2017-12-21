@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project MSP-EXP430G2553LP_Wire ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
