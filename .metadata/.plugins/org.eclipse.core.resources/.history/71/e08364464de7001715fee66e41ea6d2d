@@ -259,7 +259,7 @@ void GameOver(){
         _delay_cycles(100000);
     }
 
-    //----------------------------------------------------------------------------------
+    ////----------------------------------------------------------------------------------
     // wait until joystick button is pressed
     while((P2IFG&JOYSTICK_PIN) != JOYSTICK_PIN);
 
@@ -273,7 +273,7 @@ void GameOver(){
     sprintf(c_Golden, "%d", NumofGolden);
     hd44780_write_string("Goldens : ", 2,1,NO_CR_LF);
     hd44780_write_string(c_Golden, 2,10,NO_CR_LF);
-    //----------------------------------------------------------------------------------
+////----------------------------------------------------------------------------------
     // wait until joystick button is pressed
     while((P2IFG&JOYSTICK_PIN) != JOYSTICK_PIN);
 
@@ -285,7 +285,7 @@ void GameOver(){
     hd44780_clear_screen();
     hd44780_write_string("Your point is : ", 1,1,NO_CR_LF);
     hd44780_write_string(c_Point, 2,5,NO_CR_LF);
-    //----------------------------------------------------------------------------------
+    ////----------------------------------------------------------------------------------
 
     // wait until joystick button is pressed
     while((P2IFG & JOYSTICK_PIN) != JOYSTICK_PIN);
@@ -293,16 +293,17 @@ void GameOver(){
     // Print restart question
     hd44780_clear_screen();
     hd44780_write_string("Press to restart", 1,1,NO_CR_LF);
-    //----------------------------------------------------------------------------------
+    ////----------------------------------------------------------------------------------
     // wait until joystick button is pressed
     while((P2IFG & JOYSTICK_PIN) != JOYSTICK_PIN);
+
 }
 
 // this function will be call when one life is lost
 void LifeDecrement(){
     NumOfLife--;
 
-    // one short beep
+    // one short biip
     BUZZER_PORT |= BUZZER_PIN;
     _delay_cycles(SHORT_BEEP);
     BUZZER_PORT &= ~BUZZER_PIN;
@@ -321,7 +322,6 @@ void LifeDecrement(){
     }
 }
 
-// Call this function when the game is started
 void StartGame(){
     char data[2]="3";
     int i;
@@ -337,7 +337,9 @@ void StartGame(){
     hd44780_clear_screen();
     hd44780_write_string("Go !", 1,5,NO_CR_LF);
     __delay_cycles(1000000);
-   }
+   // hd44780_clear_screen();
+    hd44780_write_string("                                ", 1,1,CR_LF);
+}
 
 ///------------------------------------- INTERRRUPT SERVICE ROUTINES ----------------------------
 // Port2 ISR

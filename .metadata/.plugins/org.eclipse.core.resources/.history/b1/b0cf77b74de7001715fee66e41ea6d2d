@@ -302,7 +302,7 @@ void GameOver(){
 void LifeDecrement(){
     NumOfLife--;
 
-    // one short beep
+    // one short biip
     BUZZER_PORT |= BUZZER_PIN;
     _delay_cycles(SHORT_BEEP);
     BUZZER_PORT &= ~BUZZER_PIN;
